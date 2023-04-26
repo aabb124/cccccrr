@@ -10,14 +10,14 @@ from pyrogram import filters
 load_dotenv()
 
 # الايبيهات الهاش والايدي بنجبهم من هنا my.telegram.org
-API_ID = int(getenv("API_ID", "21412670"))
-API_HASH = getenv("API_HASH","c77f43ffa77efe705dbbd86ac6f1808e")
+API_ID = int(getenv("API_ID", "12987601"))
+API_HASH = getenv("API_HASH","a6581bb9160931c45197461bb7e81f90")
 
 ## توكن البوت بنجيبو من هنا @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN","5363282761:AAFmwLZt85JKzdMXhqgyfhQIX_ZmaU_WvXI")
+BOT_TOKEN = getenv("BOT_TOKEN","1480911289:AAG788KugxRMRZGkp1F0hbA-SqscFRAnR0s")
 
 # المونج لو ممعكش سيبو زي مهوه
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://moon:bootsmoon@cluster0.uyvnnox.mongodb.net/?retryWrites=true&w=majority")
 
 # مده الاغنيه بتبقي ٦٠ دقيقه انا مسويها ٣٠٠ تقدر تزودها
 DURATION_LIMIT_MIN = int(
@@ -30,14 +30,14 @@ SONG_DOWNLOAD_DURATION = int(
 ) 
 
 # جروب اللي مرفوع فيه البوت والمساعد ادمن 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001950384288"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001645162547"))
 
 # اسم البوت مينفعش تكتبو مزغرف
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","source FlameNco")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","moon")
 
 # ايديهات المطورين الملاك
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5707831441").split())
+    map(int, getenv("OWNER_ID", "5707831441", "5217623359").split())
 ) 
 
 # سيبو زي مهوه ملهوش لزمه
@@ -59,16 +59,16 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # قناه الاشتراك الاجباري بدون @
 CHANNEL = getenv(
-    "CHANNEL", "o_xox"
+    "CHANNEL", "uzzdd"
 )  # قناه الاشتراك الاجباري مثل هيك https://t.me/M_O_D_Y_CH
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "https://t.me/o_xox"
+    "CHANNEL_SUDO", "https://t.me/uzzdd"
 )  # قناة السورس هيك https://t.me/M_O_D_Y_CH
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/o_xox"
+    "SUPPORT_CHANNEL", "https://t.me/uzzdd"
 )  #جروب السورس https://t.me/BarGohara
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/o_xox"
+    "SUPPORT_GROUP", "https://t.me/uzzdd"
 ) 
 
 # ما تلعب بيها حبي هي عند الاغنيه متخلص ينزل المساعد من الكول
@@ -135,7 +135,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # جلسه البايروجران تقدر تجبها من هنا@helal_trmix_BOT
-STRING1 = getenv("STRING_SESSION", "AQATkvxsRUPI6mjHiTxfI0ih_vQX7fRhyYGS2CGTcn2baZpeKYcf2aOWumDTT_XrAFba1G9p9cIX1HoYTV7mteGFYC4TmupTF71TVkYHH6jvCyNozF7bKb3eJr13gp0upEHngUJRTHOghx8b6Qh2dTAURUJifhQvlBlt5qWvrbUr0q7J4907LHAtgeEXS5aPN5ncIxQIVXp07-G2V4XR3S0KnZ1GjPOY5qnyIHYVFsVPO-eBLLqqGFwmxhY_y8yMdQglkro3WFCrEzAZIGYC-FswbVf0Clpz7vh4_Ru0JoHzLFOuFlCE4EP9xRUSVBy8HB2jLi2-j9wSZ3YOcgYU0Xc1AAAAAUr2mUgA")
+STRING1 = getenv("STRING_SESSION", "AgBjHXt8yJJ4FqeICl93dgv5fNTdz4xG0UctSQowZ6VVnbKgOutD6SXTUtBJMlVEymWpfKDe9QiGw9FG-xRJC3_B1pgjknceZ5WiObXtAnt_30hiu2VRUd6Dj8OKJirLamV95VyXuBnE9GEJiNr1HpXVnZG0hPPFuhwF-E188xuMbXQJQ6Mc4BZ5S6x5FyLvy8fMDV7eYYmBQK6ohnpIrhLDK6z5MJucuDWpTCYASL3mxjALO_PRMy8QzsHjhR0SOMY5487lrrZH5MrdoyYHKgIenw07WId8Q4-Q04arydkkW590zXF0Gzid5_cQrcBY9leQywgRzcwAzYyWfDCRo7VZAAAAAUjjBCwA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -158,16 +158,16 @@ autoclean = []
 
 
 # صوره الاستارت
-START_IMG_URL = getenv("START_IMG_URL", "")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/9633a17b522e001afba6b.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph//file/882516849cd131ff704f8.jpg",
+    "https://graph.org/file/1626ce37ecb8ba14ee377.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://telegra.ph//file/8ecaaceb12955c40da8fc.jpg",
+    "https://graph.org/file/f342609a06dff6488eeab.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
